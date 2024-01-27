@@ -1,0 +1,41 @@
+a.google:link, a.google:visited {
+    color: green;
+    text-decoration: none;
+}
+a.google:hover {
+    color: rgb(151, 250, 2);
+    text-decoration: underline;
+}
+a.google:active {
+    color: chartreuse;
+}
+
+a.link:link, a.link:visited {
+    color: red;
+    text-decoration: none;
+}
+a.link:hover {
+    color: rgb(42, 5, 248);
+    text-decoration: underline;
+
+}
+a.link:active {
+    color: lightpink;
+}
+
+.ital:hover {
+    font-style: italic;
+}
+
+#second-div p:nth-child(even){
+    color: red;
+}
+#second-div p:nth-child(odd){
+    color: blue;
+}
+
+#first-div > p::after {
+    content: "NEW";
+    color: yellowgreen;
+}
+/*boja yellowgreen se bolje vidi*/
